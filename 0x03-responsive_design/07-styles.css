@@ -318,6 +318,16 @@ a:active {
   background: var(--color-white);
 }
 
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 57%;
+  }
+}
+@media screen and (max-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
+}
 /* Helpers
             ============================= */
 
@@ -1153,7 +1163,7 @@ textarea:valid:not(:placeholder-shown) {
     flex-basis: 70%;
   }
 }
-@media screen and (max-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 481px) and (max-width: 767px) {
   .header-logo {
     flex-basis: 79%;
   }
